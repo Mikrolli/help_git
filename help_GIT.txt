@@ -1,0 +1,18 @@
+Открываем Git bash 
+1. git init 
+2.git remote add origin https://github.com/Mikrolli/help_git.git(произошла связь с гитом)
+3.git status - смотрим какие файлы еще не запушены 
+4.git add . 
+5.git commit -m 'init'- закомитили
+6.git status - проверка
+7.git push - отправка закомиченых файлов
+8. git push --set--upstream master 
+Если происходят дополнения в коде(файле) пишем git status 
+git add .
+git status
+git commit -m 'addслово'(комментарий)(происходит обновление после добавления в git)
+git push
+------------------
+.gitignore - создаем файл и в нем прописываем :
+- /название папки или файла
+далее добовление происходит так же как показано выше.
